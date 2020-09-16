@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
    
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -17,25 +18,25 @@ body {
     
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 /* changes color of text mid word */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 /* formats each div in the header class*/
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    list-style-type: none;
+    
 }
 /* removes bullets from the list type, makes links white*/
-.header ul,
+header ul,
 a {
     list-style-type: none;
     color: #ffffff;
@@ -43,7 +44,7 @@ a {
 }
 
 /* forces list to be inline*/
-.header ul li {
+header ul li {
     display: inline-block;
     margin-left: 25px;
 }
