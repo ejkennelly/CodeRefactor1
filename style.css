@@ -36,7 +36,7 @@ header nav {
     
 }
 /* removes bullets from the list type, makes links white*/
-header ul,
+header nav ul,
 a {
     list-style-type: none;
     color: #ffffff;
@@ -44,7 +44,7 @@ a {
 }
 
 /* forces list to be inline*/
-header ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
